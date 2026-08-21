@@ -1,0 +1,51 @@
+# 编译产物
+*.o
+*.obj
+*.out
+*.elf
+*.bin
+*.hex
+*.axf
+*.map
+*.lib
+
+# SCons / Python 缓存
+*.pyc
+*.dblite
+__pycache__/
+build/
+Debug/
+
+# Keil 工程文件（生成物，每人本地生成）
+*.uvprojx
+*.uvoptx
+*.uvguix.*
+*.uvoptx.local*
+*.uvi
+DebugConfig/
+RTE/
+settings/
+JLinkLog.txt
+JLinkSettings.ini
+
+# 软件包目录（pkgs --update 拉取，不进版本控制）
+packages/
+
+# 配置备份
+.config.[0-9]*
+cconfig.h
+
+# 标签和备份
+GPATH
+GRTAGS
+GTAGS
+*~
+*.bak
+*.old
+*.dep
+*.i
+*.d
+.DS_Store
+
+# 编辑器配置
+.vscode/
